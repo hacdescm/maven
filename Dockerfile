@@ -1,7 +1,7 @@
 FROM maven:3.6.3-openjdk-11
 
 RUN apt-get update && \
-    apt-get install wget zip
+    apt-get install -y wget zip
 
 RUN apt-get install -y --no-install-recommends fontconfig
 
