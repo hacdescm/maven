@@ -1,4 +1,4 @@
-FROM bitnami/java:11-prod
+FROM maven:3.6.3-openjdk-11
 
 RUN apt-get update && \
     apt-get install wget zip
